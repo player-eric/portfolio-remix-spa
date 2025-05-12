@@ -5,7 +5,8 @@ type ContactOptions =
   | "x"
   | "github"
   | "instagram"
-  | "linkedin";
+  | "linkedin"
+  | "googleScholar";
 
 export interface Configs {
   routes: { label: string; url: string }[];

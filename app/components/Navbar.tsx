@@ -9,9 +9,12 @@ import FacebookIcon from "./icons/FacebookIcon";
 import GithubIcon from "./icons/GithubIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import HamburgerIcon from "./icons/HamburgerIcon";
+import GoogleScholarIcon from "./icons/GoogleScholarIcon";
 
 const socialKeyToIcon = (key: string) => {
+  console.log('mapping', key);
   switch (key) {
+    
     case "email":
       return <EmailIcon />;
     case "x":
@@ -24,6 +27,8 @@ const socialKeyToIcon = (key: string) => {
       return <FacebookIcon />;
     case "linkedin":
       return <LinkedinIcon />;
+    case "googleScholar":
+      return <GoogleScholarIcon />
   }
 };
 

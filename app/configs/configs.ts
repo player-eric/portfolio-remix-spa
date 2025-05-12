@@ -18,6 +18,7 @@ const configs: Configs = {
       facebook: "",
       x: "",
       github: "https://github.com/player-eric",
+      googleScholar: "https://scholar.google.com/citations?user=s6b4UiQAAAAJ&hl=en",
       instagram: "https://www.instagram.com/digimonyan/",
       linkedin: "https://www.linkedin.com/in/shiqin-yan/",
     },
