@@ -12,7 +12,6 @@ import HamburgerIcon from "./icons/HamburgerIcon";
 import GoogleScholarIcon from "./icons/GoogleScholarIcon";
 
 const socialKeyToIcon = (key: string) => {
-  console.log('mapping', key);
   switch (key) {
     
     case "email":
