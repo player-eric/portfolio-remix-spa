@@ -450,6 +450,11 @@ export const footPrintsWithPicture: FootPrintData[] = [
     title: "西安 Xi An",
     position: [34.3416, 108.9398],
     image: "Xian.jpg",
+  },
+  {
+    title: "Paris",
+    position: [48.8566, 2.3522],
+    image: "Paris.jpg",
   }
 ];
 
