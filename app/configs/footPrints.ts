@@ -411,6 +411,46 @@ export const footPrintsWithPicture: FootPrintData[] = [
     position: [45.6769, -111.0429],
     image: "Bozeman.jpg",
   },
+  {
+    title: "大理 Dali",
+    position: [25.6064, 100.2672],
+    image: "Dali.jpg",
+  },
+  {
+    title: "丽江 Li Jiang",
+    position: [26.8721, 100.2347],
+    image: "Lijiang.jpg",
+  },
+  {
+    title: "昆明 Kun Ming",
+    position: [24.8801, 102.8329],
+    image: "Kunming.jpg",
+  },
+  {
+    title: "Frankfurt",
+    position: [50.1109, 8.6821],
+    image: "Frankfurt.jpg",
+  },
+  {
+    title: "都江堰 Du Jiang Yan",
+    position: [31.0096, 103.617],
+    image: "Dujiangyan.jpg",
+  },
+  {
+    title: "敦煌 Dun Huang",
+    position: [40.1421, 94.661],
+    image: "Dunhuang.jpg",
+  }, 
+  {
+    title: "北京 Bei Jing",
+    position: [39.9042, 116.4074],
+    image: "Beijing.jpg",
+  },
+  {
+    title: "西安 Xi An",
+    position: [34.3416, 108.9398],
+    image: "Xian.jpg",
+  }
 ];
 
 export const footPrintsWithoutPicture: FootPrintData[] = [
@@ -461,8 +501,6 @@ export const footPrintsWithoutPicture: FootPrintData[] = [
   { position: [38.569512960965156, -109.54559200208108] },
   { position: [52.9721, 122.5367] },
   { position: [43.8171, 125.3235] },
-  { position: [39.9042, 116.4074] },
-  { position: [34.3416, 108.9398] },
   { position: [43.8256, 87.6168] },
   { position: [48.5704, 87.7517] },
 ];
