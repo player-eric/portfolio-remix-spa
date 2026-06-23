@@ -244,6 +244,11 @@
     line-height:1.15; margin:0;
   }
   footer .ending .noital{ font-style:normal; display:inline-block; }
+  footer .share-qr{ margin:40px auto 0; max-width:180px; }
+  footer .share-qr img{ width:180px; height:180px; display:block; margin:0 auto;
+    border:1px solid var(--line); border-radius:8px; background:#fff; }
+  footer .share-qr figcaption{ margin-top:12px; color:var(--ink-soft);
+    font-size:.95rem; letter-spacing:.02em; }
 
   /* —— 滚动渐入动画 —— */
   .reveal{ opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
@@ -531,6 +536,10 @@
 <footer>
   <div class="wrap">
     <p class="ending">Luck favors the prepared<span class="noital">🍀</span></p>
+    <figure class="share-qr">
+      <img src="assets/qr-share.png" alt="扫码回看本次分享 · 二维码" width="180" height="180" loading="lazy">
+      <figcaption>扫码回看本次分享</figcaption>
+    </figure>
   </div>
 </footer>
 
