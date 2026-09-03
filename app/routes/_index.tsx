@@ -155,7 +155,7 @@ export default function About() {
         </p>
       </ExperienceCardWithPicture>
 
-      <h1 className="font-blackOpsOne text-4xl mt-6 mb-2">Publications</h1>
+      {/* <h1 className="font-blackOpsOne text-4xl mt-6 mb-2">Publications</h1>
       <PublicationWithPicture
         title="Neural Fields in Visual Computing and Beyond"
         pictureFileName="neuralFields.png"
@@ -169,7 +169,7 @@ export default function About() {
         webLink="https://aclanthology.org/2020.wmt-1.117/"
         pdfLink="https://www.statmt.org/wmt20/pdf/2020.wmt-1.117.pdf"
         abstract="This paper describes the submissions of the NiuTrans Team to the WMT 2020 Quality Estimation Shared Task. We participated in all tasks and all language pairs. We explored the combination of transfer learning, multi-task learning and model ensemble. Results on multiple tasks show that deep transformer machine translation models and multilingual pretraining methods significantly improve translation quality estimation performance. Our system achieved remarkable results in multiple level tasks, e.g., our submissions obtained the best results on all tracks in the sentence-level Direct Assessment task."
-      ></PublicationWithPicture>
+      ></PublicationWithPicture> */}
 
       <BackToTopButton></BackToTopButton>
     </div>
