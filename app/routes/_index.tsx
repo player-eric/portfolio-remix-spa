@@ -76,7 +76,7 @@ export default function About() {
         location="Princeton, NJ"
       >
         <p className="font-courierPrime text-xl mt-2">
-          Full-stack developer supporting{" "}
+          Senior software engineer supporting{" "}
           <a
             href="https://www.openfigi.com/"
             target="_blank"
