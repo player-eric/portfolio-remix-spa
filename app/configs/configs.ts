@@ -3,9 +3,9 @@ import { Configs } from "~/types/configTypes";
 const configs: Configs = {
   routes: [
     { label: "About", url: "about" },
-    { label: "Projects", url: "projects" },
+//    { label: "Projects", url: "projects" },
     { label: "Ramen", url: "ramen" },
-    { label: "Footprints", url: "footprints" },
+//    { label: "Footprints", url: "footprints" },
   ],
   colors: {
     primary: "#FFD562",
